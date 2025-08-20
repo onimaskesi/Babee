@@ -1,0 +1,122 @@
+{
+  "general": {
+    "next": "İleri",
+    "back": "Geri",
+    "continue": "Devam et",
+    "yes": "Evet",
+    "no": "Hayır",
+    "skip": "Atla",
+    "dismiss": "Kapat"
+  },
+  "gender": {
+    "male": "Erkek",
+    "female": "Kız"
+  },
+  "onboarding": {
+    "defaultName": "bebeğiniz",
+    "babyName": "Bebeğinizin adı nedir?",
+    "birthDate": "{{name}} ne zaman doğdu?",
+    "gender": "{{name}}'nın cinsiyeti nedir?",
+    "gestationalAge": "{{name}} kaç haftalıkken doğdu?",
+    "gestationalAgePlaceholder": "Hafta sayısını giriniz (20-45)",
+    "sleepIssues": "{{name}} uyku problemi yaşıyor mu?",
+    "milkSupply": "Süt miktarınızla ilgili herhangi bir endişeniz var mı?",
+    "breastfeedingPain": "Emzirirken ağrı yaşıyor musunuz?",
+    "moodIssues": "Son zamanlarda kendinizi stresli hissediyor musunuz?",
+    "healthNotes": "{{name}} ile ilgili sağlık notları var mı?",
+    "feedingType": "{{name}} nasıl besleniyor?",
+    "feedingTypeBreast": "Anne sütü",
+    "feedingTypeFormula": "Mama",
+    "feedingTypeMixed": "Karışık",
+    "ratingLabels": {
+      "1": "Sorun yok",
+      "2": "Hafif",
+      "3": "Orta",
+      "4": "Belirgin",
+      "5": "Şiddetli",
+    },
+    "ratingShort": {
+      "1": "Yok",
+      "2": "Haf",
+      "3": "Orta",
+      "4": "Bel",
+      "5": "Şid"
+    },
+    "ratingHint": "Kaydırarak 1–5 arası seçin (1 = hiç, 5 = şiddetli).",
+    "ratingAccessibility": "{{level}} üzerinden {{level}}: {{description}}",
+    "ratingSelectedAnnouncement": "{{level}} seçildi: {{description}}"
+  },
+  "dashboard": {
+    "welcomePrompt": "Bir bebek bakım uygulamasında arkadaş canlısı, cesaretlendirici, motive edici, sevgi dolu bir asistansınız. Bir karşılama mesajı vermeniz istendiğinde, kullanıcıyı motive eden ve gülümseten kısa, sıcak ve moral verici bir cümleyle yanıt verin. Her mesaj benzersiz, olumlu ve ebeveynlik, bebekler veya kişisel gelişimle ilgili olmalıdır. Örnekler: 'Tekrar hoş geldiniz! \n Attığınız her küçük adım bebeğiniz ve sizin için büyük bir kazançtır.' 'Merhaba, harika ebeveyn! \n Bugün harika anılar biriktirmek için bir fırsat daha.' 'Merhaba! \n Sevginiz, dünyayı küçük çocuğunuz için daha iyi bir yer haline getiriyor.' Şimdi, lütfen böyle yanlızca bir adet karşılama mesajı yazın. Bu mesajı uygulamanın başına koyucam o yüzden açıklama olmadan yalnızca mesajı verin. Emoji olmadan.",
+    "welcomeWithName": "Hoş geldiniz, {{name}}!",
+    "welcome": "Hoş geldiniz",
+    "subtitle": "Bugün nasıl hissediyorsunuz?",
+    "aiAssistant": "Yapay Zeka Asistanı",
+    "aiAssistantDesc": "Bebek bakımı için kişiselleştirilmiş destek alın.",
+    "resources": "Kaynaklar",
+    "resourcesDesc": "Bebek bakımı ile ilgili faydalı içerikler.",
+    "profile": "Profil",
+    "profileDesc": "Kişisel bilgilerinizi yönetin.",
+    "premiumTitle": "Premium Üyelik",
+    "premiumDesc": "Özel içeriklere ve özelliklere erişim sağlayın.",
+    "upgradeButton": "Premium'a Yükselt",
+    "personalizedResources": "Sana özel öneriler",
+    "personalizedResourcesDesc": "{{name}} için önemli tavsiyeler"
+  },
+  "common": {
+    "cancel": "İptal",
+    "dismiss": "Kapat"
+  },
+  "resources": {
+    "personalizedAdviceTitle": "Kişiselleştirilmiş Öneriler",
+    "milkSupply1": {
+      "title": "Süt Arttırma Temelleri",
+      "description": "Süt arzını doğal yollarla nasıl artırabilirsiniz."
+    },
+    "sleep1": {
+      "title": "Uyku Rutinleri",
+      "description": "Bebek uyku düzeni için ipuçları."
+    },
+    "lactation1": {
+      "title": "Emzirme Desteği",
+      "description": "Yaygın emzirme sorunları ve çözümleri."
+    },
+    "breastfeeding1": {
+      "title": "Emzirme İpuçları",
+      "description": "Emziren anneler için destek."
+    },
+    "formula1": {
+      "title": "Mama Hazırlama",
+      "description": "Formül mamayı güvenli hazırlama rehberi."
+    },
+    "skinToSkin1": {
+      "title": "Ten Teması",
+      "description": "Ten teması ile bağlanmanın faydaları."
+    },
+    "noResources": "Bu konu için kaynak bulunamadı."
+  },
+  "aiService": {
+    "promptIntro": "Bir bebek bakım uygulamasında arkadaş canlısı, güven verici, cesaretlendirici, motive edici, sevgi dolu bir asistansınız. Aşağıdaki verilere göre (bazılarında sayı var bunlar ilgili başlığın ne kadar şiddetli hissedildiğiyle alakalı 1 = Sorun yok, 2 = Hafif, 3 = Orta, 4 = Belirgin, 5 = Şiddetli) kişiselleştirilmiş öneriler verin bunları uygulamada kullanıcıya yardımcı olması bilgilendirmesi cesaretlendirmesi ve motive etmesi için veriyoruz mümkün olduğunca fayda odaklı olalım:",
+    "promptFooter": "Veriler ışığında kişiselleştirilmiş kısa ve destekleyici öneriler olsun. Maddeler halinde ver. Tatlı sevecen motive edici bir dil kullan. Başlık başlık ilerleyin başlıkların başına ve sonuna yalnızca ** koyun ve alt satıra geçin onun altına maddeler halinde verin çünkü buna göre uygulamada tasarım oluşturucam. Emoji kullanma. Güven verici ve destekleyici ol.",
+    "fallback": "Girdiğinize dayanarak, işte bazı kişiselleştirilmiş öneriler:\n\n",
+    "breastfeedingPain": "- Emzirme ağrısı yüksek, bir emzirme uzmanına danışmayı düşünün.\n",
+    "milkSupplyConcern": "- Süt arzı ile ilgili endişeler var, su tüketimini ve dinlenmeyi artırmayı deneyin.\n",
+    "sleepIssues": "- Uyku sorunları var, sakinleştirici bir uyku rutini oluşturun.\n",
+    "premature": "- Erken doğum, düzenli çocuk doktoru kontrolleri önerilir.\n",
+    "moodIssues": "- Ruh hali sorunları gözlemlendi, bir sağlık profesyoneli ile görüşmeyi düşünün.\n",
+    "additionalNotes": "- Ek notlar: {{notes}}\n",
+    "noAdvice": "Üzgünüz, kişiselleştirilmiş öneri oluşturulamadı.",
+    "userMessageTemplate": "{{promptIntro}}\n{{data}}\n{{promptFooter}}",
+    "babyNameLabel": "Bebeğin adı: ",
+    "birthDateLabel": "Doğum tarihi: ",
+    "genderLabel": "Cinsiyet: ",
+    "gestationalAgeLabel": "Doğum haftası: ",
+    "weeksLabel": " hafta",
+    "sleepIssuesLabel": "Uyku sorunları seviyesi: ",
+    "feedingTypeLabel": "Beslenme tipi: ",
+    "milkSupplyConcernLabel": "Süt arzı endişesi seviyesi: ",
+    "breastfeedingPainLabel": "Emzirme ağrısı seviyesi: ",
+    "moodIssuesLabel": "Ruh hali sorunları seviyesi: ",
+    "healthNotesLabel": "Ek sağlık notları: "
+  }
+}

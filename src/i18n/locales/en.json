@@ -1,0 +1,122 @@
+{
+  "general": {
+    "next": "Next",
+    "back": "Back",
+    "continue": "Continue",
+    "yes": "Yes",
+    "no": "No",
+    "skip": "Skip",
+    "dismiss": "Dismiss"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female"
+  },
+  "onboarding": {
+    "defaultName": "your baby",
+    "babyName": "What is your baby’s name?",
+    "birthDate": "When was {{name}} born?",
+    "gender": "What is {{name}}'s gender?",
+    "gestationalAge": "At how many weeks was {{name}} born?",
+    "gestationalAgePlaceholder": "Enter weeks (20-45)",
+    "sleepIssues": "Is {{name}} having trouble sleeping?",
+    "milkSupply": "Do you have any concerns about your milk supply?",
+    "breastfeedingPain": "Are you experiencing pain while breastfeeding?",
+    "moodIssues": "Have you been feeling stressed or down recently?",
+    "healthNotes": "Any health notes or allergies about {{name}}?",
+    "feedingType": "How is {{name}} being fed?",
+    "feedingTypeBreast": "Breastfeeding",
+    "feedingTypeFormula": "Formula",
+    "feedingTypeMixed": "Mixed",
+    "ratingLabels": {
+      "1": "No problem",
+      "2": "Mild",
+      "3": "Moderate",
+      "4": "Significant",
+      "5": "Severe"
+    },
+    "ratingShort": {
+      "1": "No",
+      "2": "Mild",
+      "3": "Mod",
+      "4": "High",
+      "5": "Sev"
+    },
+    "ratingHint": "Slide to choose how severe the issue is (1 = none, 5 = severe).",
+    "ratingAccessibility": "{{level}} out of 5: {{description}}",
+    "ratingSelectedAnnouncement": "{{level}} selected: {{description}}"
+  },
+  "dashboard": {
+    "welcomePrompt": "You're a friendly, encouraging, motivating, and loving assistant in a babysitting app. When asked to provide a greeting, respond with a short, warm, and uplifting message that motivates the user and makes them smile. Each message should be unique, positive, and related to parenting, babies, or personal development. Examples: 'Welcome back! Every little step you take is a big win for you and your baby.' 'Hello, wonderful parent! Today is another opportunity to make wonderful memories.' 'Hello! Your love makes the world a better place for your little one.' Now, please write only one greeting like this. I'll put it at the beginning of the app, so just the message, no description. No emojis.",
+    "welcomeWithName": "Welcome, {{name}}!",
+    "welcome": "Welcome",
+    "subtitle": "How are you feeling today?",
+    "aiAssistant": "AI Assistant",
+    "aiAssistantDesc": "Get personalized support for baby care.",
+    "resources": "Resources",
+    "resourcesDesc": "Helpful content about baby care.",
+    "profile": "Profile",
+    "profileDesc": "Manage your personal information.",
+    "premiumTitle": "Premium Membership",
+    "premiumDesc": "Access exclusive content and features.",
+    "upgradeButton": "Upgrade to Premium",
+    "personalizedResources": "Personalized Tips",
+    "personalizedResourcesDesc": "Important tips for {{name}}"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "dismiss": "Dismiss"
+  },
+  "resources": {
+    "personalizedAdviceTitle": "Personalized Advice",
+    "milkSupply1": {
+      "title": "Milk Supply Basics",
+      "description": "How to increase milk supply naturally."
+    },
+    "sleep1": {
+      "title": "Sleep Routines",
+      "description": "Tips for better baby sleep."
+    },
+    "lactation1": {
+      "title": "Lactation Help",
+      "description": "Common breastfeeding challenges."
+    },
+    "breastfeeding1": {
+      "title": "Breastfeeding Tips",
+      "description": "Support for breastfeeding mothers."
+    },
+    "formula1": {
+      "title": "Formula Feeding",
+      "description": "How to prepare formula safely."
+    },
+    "skinToSkin1": {
+      "title": "Skin to Skin Contact",
+      "description": "Benefits of skin-to-skin time."
+    },
+    "noResources": "No resources found for this topic."
+  },
+  "aiService": {
+    "promptIntro": "You are a friendly, reassuring, encouraging, motivating, and loving assistant in a baby care app. Based on the following data (some have numbers, these are related to how severe the topic is felt; 1 = No problem, 2 = Mild, 3 = Moderate, 4 = Significant, 5 = Severe), provide personalized recommendations. We provide these in the app to help, inform, encourage, and motivate the user. Let's be as helpful as possible:",
+    "promptFooter": "Provide short, supportive personalized recommendations based on the data. Provide them in bullet points. Use sweet, loving, and motivating language. Go title by title, put only ** at the beginning and end of each title, and then move on to the next line and provide bullet points below, as I will design the app accordingly. Don't use emojis. Be reassuring and supportive.",
+    "fallback": "Based on your input, here are some personalized recommendations:\n\n",
+    "breastfeedingPain": "- Breastfeeding pain is high, consider consulting a lactation expert.\n",
+    "milkSupplyConcern": "- Milk supply concerns detected, try increasing hydration and rest.\n",
+    "sleepIssues": "- Sleep issues noted, establish a calming bedtime routine.\n",
+    "premature": "- Premature birth, regular pediatric visits recommended.\n",
+    "moodIssues": "- Mood issues noted, consider discussing with a healthcare provider.\n",
+    "additionalNotes": "- Additional notes: {{notes}}\n",
+    "noAdvice": "Sorry, no personalized advice was generated.",
+    "userMessageTemplate": "{{promptIntro}}\n{{data}}\n{{promptFooter}}",
+    "babyNameLabel": "Baby's name: ",
+    "birthDateLabel": "Birth date: ",
+    "genderLabel": "Gender: ",
+    "gestationalAgeLabel": "Gestational age at birth: ",
+    "weeksLabel": " weeks",
+    "sleepIssuesLabel": "Sleep issues level: ",
+    "feedingTypeLabel": "Feeding type: ",
+    "milkSupplyConcernLabel": "Milk supply concern level: ",
+    "breastfeedingPainLabel": "Breastfeeding pain level: ",
+    "moodIssuesLabel": "Mood issues level: ",
+    "healthNotesLabel": "Additional health notes: "
+  }
+}
